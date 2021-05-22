@@ -1,0 +1,25 @@
+.container .form-group .obligate::before {
+    content: '*';
+    color: red;
+}
+
+.container .form-group {
+    width: 100%;
+    display: flex;
+}
+
+.container .form-group .lbl {
+    width: 10%;
+}
+
+.container .form-group .form-control {
+    width: 50%;
+}
+
+.container .form-group .check-form {
+    width: 90%;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}

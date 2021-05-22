@@ -1,0 +1,42 @@
+.container .member {
+    display: flex;
+    width: 100%;
+}
+
+.container .member .left {
+    width: 70%;
+}
+
+.container .member .right {
+    width: 30%;
+    text-align: right;
+}
+
+.container .member .right a {
+    border: 1px solid lightgray;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 3px 5px 3px 5px;
+}
+
+.container .member .right a:hover {
+    background-color: gray;
+}
+
+thead {
+    background-color: rgb(55, 235, 55);
+}
+
+thead tr th {
+    text-align: center;
+}
+
+tbody tr td.gender,
+.birthday {
+    text-align: center;
+}
+
+tbody tr .name {
+    width: 30%;
+}
